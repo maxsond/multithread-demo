@@ -16,7 +16,7 @@ def refresh():
 	rwin.refresh()
 refresh()
 r = lwin.getmaxyx()[1]
-time.sleep(1)
+#time.sleep(1)
 class msg:
 	
 	def __init__(self,txt="Test String",wait=True,win=lwin,speed=0.1):
